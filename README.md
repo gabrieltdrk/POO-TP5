@@ -19,6 +19,27 @@ Em C#, a herança é um dos pilares da programação orientada a objetos. Ela pe
 
 1- Um aluno de graduação possui as informações de matrícula, nome, código do curso (1- Arquitetura, 2- Sistemas de Informação, 3- Engenharia e 4- Biomedicina) Todo aluno deve poder calcular a mensalidade com base no curso escolhido (Arq = 450, SI = 650, Eng = 850 e Bio = 750). O aluno de pós-graduação possui as mesmas informações do aluno de graduação e, adicionalmente, possui as informações de linha de pesquisa, orientador e valor da bolsa de estudos. O aluno de pós-graduação deve calcular a mensalidade com base no curso escolhido, porém abatendo o valor da bolsa de estudos do valor do curso escolhido.
 
-2- Crie um sistema para gerenciar veículos. Existem dois tipos de veículos: carros e motocicletas ... ?
+2- Crie um sistema para gerenciar veículos. Existem dois tipos
+de veículos: carros e motocicletas. Ambos os tipos de
+veículos têm algumas propriedades em comum, como
+marca, modelo, ano de fabricação e cor. No entanto,
+cada tipo de veículo tem suas próprias características
+específicas:
+
+- Carro: Número de portas (inteiro), Tipo de transmissão (automático ou manual)
+
+- Motocicleta: Cilindradas (inteiro), Tipo de partida (elétrica ou manual)
+
+Crie uma classe base chamada "Veiculo" que
+contenha as propriedades comuns a todos os veículos
+e os métodos para definir e obter essas propriedades.
+Em seguida, crie duas 2 (duas) classes derivadas,
+"Carro" e "Motocicleta", que herdem da classe base
+"Veiculo" e incluam suas próprias propriedades e
+métodos específicos.
+Depois de definir as classes, crie instâncias de carros e
+motocicletas e demonstre o uso de herança,
+acessando as propriedades comuns e específicas de
+cada tipo de veículo.
 
 <div align="center">Coded by <a href="https://github.com/gabrieltdrk">gabrieltdrk</a>.</div>
